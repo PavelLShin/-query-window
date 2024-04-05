@@ -1,0 +1,8 @@
+.App {
+  max-width: 1807px;
+  /* padding: 0 40px; */
+  height: 780px;
+}
+* {
+  cursor: url('./img//Cursor.svg'), auto;
+}
