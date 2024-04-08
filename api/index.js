@@ -8,6 +8,4 @@ app.use(cors())
 app.use(express.json())
 app.use('/api', dataRouter)
 
-app.use(express.static('static'))
-
 app.listen(PORT, () => console.log(`port start ${PORT}`))

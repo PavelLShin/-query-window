@@ -23,7 +23,7 @@ class DataController {
     }
   }
 
-  //   показать всех
+  //   показать все
   async getData(req, res) {
     try {
       const data = fs.readFileSync('./01.json', { encoding: 'utf8' })
